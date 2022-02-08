@@ -8,6 +8,10 @@ require("./bootstrap");
 
 window.Vue = require("vue").default;
 
+import Vue from "vue";
+import VueToastr from "vue-toastr";
+Vue.use(VueToastr);
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
